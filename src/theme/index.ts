@@ -39,12 +39,13 @@ const colors = {
   },
   lightPink: "#F8F1EA",
   black: "#000",
+  white: "#fff",
 };
 
 const fontSizes = {
   s: "12px",
-  m: "14px",
-  h: "25px",
+  m: "16px",
+  h: "22px",
 };
 
 const fontFamilies = {

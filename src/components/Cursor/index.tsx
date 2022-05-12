@@ -43,4 +43,4 @@ const Content = styled.div`
   border-radius: 50%;
 `;
 
-export default CustomCursor;
+export { CustomCursor };

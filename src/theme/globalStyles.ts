@@ -11,10 +11,8 @@ export const GlobalStyles = createGlobalStyle`
     body {
         margin: 0;
         padding: 0;
-        font-family: ${({ theme }) => theme.fontFamilies.clash.medium};
-        font-weight: 400;
+        font-family: ${({ theme }) => theme.fontFamilies.manhope.regular};
         font-size: ${({ theme }) => theme.fontSizes.m};
-        line-height: 140.5%;
         overflow-x: hidden;
     }
 
