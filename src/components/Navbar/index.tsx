@@ -7,9 +7,9 @@ import Link from "next/link";
 
 
 export const socials = [
-    { icon: <FaTwitter />, link: social.twitter },
-    { icon: <FaGithub />, link: social.github },
-    { icon: <FaLinkedinIn />, link: social.linkedIn }
+    { icon: <FaTwitter />, link: social.twitter, label: 'Twiiter' },
+    { icon: <FaGithub />, link: social.github, label: 'Github' },
+    { icon: <FaLinkedinIn />, link: social.linkedIn, label: 'LinkedIn' }
 ]
 
 
@@ -53,14 +53,14 @@ const Navbar = () => {
                     <NavbarLink>Senior Frontend Engineer</NavbarLink>
                     <SocialMedias>
                         {
-                            socials.map(({ icon, link }, index) => (
+                            socials.map(({ icon, link, label }, index) => (
                                 <NavbarLink key={index}>
                                     <a
 
                                         href={link}
                                         target="_blank"
                                         rel="noreferrer"
-                                        aria-label="Twitter"
+                                        aria-label={label}
                                     >
                                         {icon}
                                     </a>

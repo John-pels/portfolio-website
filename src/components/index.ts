@@ -1,3 +1,4 @@
+export { Footer } from "./Footer";
 export { CustomCursor } from "./Cursor";
 export { PageWrapperWithOpacity } from "./container";
 export { Navbar } from "./Navbar";

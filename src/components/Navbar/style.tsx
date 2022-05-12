@@ -97,13 +97,12 @@ export const NavbarToggle = styled.button<{ open?: boolean }>`
   ${({ theme }) => theme.media.lg} {
     width: 36px;
     height: 36px;
+    border-radius:5px;
     background-color: ${({ open }) => (open ? "transparent" : "#000")};
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     cursor: pointer;
   }
 `;

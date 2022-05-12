@@ -1,4 +1,4 @@
-import { Loader, Navbar, PageWrapperWithOpacity, Seo } from '@src/components'
+import { Footer, Loader, Navbar, PageWrapperWithOpacity, Seo } from '@src/components'
 import type { NextPage } from 'next'
 import { useState } from 'react';
 
@@ -14,6 +14,7 @@ const Home: NextPage = () => {
       {!done && <Loader setDone={setDone} />}
       <PageWrapperWithOpacity active={done}>
         <Navbar />
+        <Footer />
       </PageWrapperWithOpacity>
     </>
   )
