@@ -3,8 +3,8 @@ import { FaEnvelope, FaPhoneAlt, FaGithub, FaLinkedinIn, FaTwitter } from 'react
 import social from "@src/content/social"
 
 export const socials = [
-    { icon: <FaEnvelope />, link: social.email, label: 'Email' },
-    { icon: <FaPhoneAlt />, link: social.phone, label: 'FaPhoneAlt' },
+    { icon: <FaEnvelope />, link: social.email, label: 'Email', href: 'mailto:ajeigbejohnolu@gmail.com' },
+    { icon: <FaPhoneAlt />, link: social.phone, label: 'FaPhoneAlt', href: 'tel:+2348188974303' },
 
 ]
 
@@ -29,10 +29,10 @@ const Footer = () => {
                 <FooterItem>
 
                     {
-                        socials.map(({ icon, link, label }, index) => (
+                        socials.map(({ icon, link, label, href }, index) => (
                             <FooterText key={index}>
                                 {icon}
-                                <a href="mailto:ajeigbejohnolu@gmail.com"
+                                <a href={href}
                                     target="_blank"
                                     rel="noreferrer"
                                     aria-label={label}>
