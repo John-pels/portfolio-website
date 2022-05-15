@@ -50,7 +50,7 @@ const Navbar = () => {
                             </a>
                         </Link>
                     </NavbarBrand>
-                    <NavbarLink>Senior Frontend Engineer</NavbarLink>
+                    <NavbarLink>Senior Software Engineer</NavbarLink>
                     <SocialMedias>
                         {
                             socials.map(({ icon, link, label }, index) => (

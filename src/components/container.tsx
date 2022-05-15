@@ -26,7 +26,7 @@ export const HideOnMobile = css`
 
 
 export const PaddedWrapper = css`
-  padding: 3rem 0;
+  padding: 2rem 0;
 
   ${({ theme }) => theme.media.xxl} {
     padding: 3rem 0;

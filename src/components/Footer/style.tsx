@@ -56,6 +56,19 @@ ${({ theme }) => theme.media.md} {
 export const Wrap = styled.div`
 display:flex;
 gap: 20px;
+
+svg {
+  cursor: pointer;
+   path {
+    transition: 0.3s ease-in-out;
+  }
+
+  :hover {
+    path {
+      fill: ${({ theme }) => theme.colors.gradients.secondary[4]};
+    }
+  }
+}
 `
 
 export const FooterBrand = styled.span`
@@ -70,7 +83,12 @@ line-height: 30px;
 
 a {
 font-family:${({ theme }) => theme.fontFamilies.manhope.semiBold};
+text-decoration:underline;
 }
+
+ ${({ theme }) => theme.media.lg} {
+     line-height: 50px;
+  }
 `
 
 export const FooterText = styled.div`
@@ -82,5 +100,7 @@ font-family:${({ theme }) => theme.fontFamilies.manhope.extraLight};
 
 svg {
     vertical-align:middle;
+
+    
 }
 `

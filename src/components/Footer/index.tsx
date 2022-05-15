@@ -17,8 +17,8 @@ const Footer = () => {
                 <FooterItem>
                     <FooterBrand>John Ajeigbe</FooterBrand>
                     <FooterCopyright>&copy;{new Date().getFullYear()}
-                        {'  '}Design  by
-                        <a href="#"
+                        {'  '}Design by
+                        <a href="https://dribbble.com/Kachieibejih"
                             target="_blank"
                             rel="noreferrer"
                             aria-label="Kachi Ibejih">

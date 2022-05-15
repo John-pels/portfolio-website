@@ -1,3 +1,6 @@
+export { SlideChild } from "./Animation";
+export { SlideInWrapper } from "./Animation";
+export { Header } from "./Header";
 export { Footer } from "./Footer";
 export { CustomCursor } from "./Cursor";
 export { PageWrapperWithOpacity } from "./container";

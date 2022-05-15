@@ -73,9 +73,16 @@ font-size:1rem;
     transition: 0.3s ease-in-out;
   }
 
-  &:hover {
+  :hover {
     path {
-      fill: ${({ theme }) => theme.colors.gradients.secondary[1]};
+      fill: ${({ theme }) => theme.colors.gradients.secondary[4]};
+    }
+  }
+
+  a {
+    transition:0.3s;
+    :hover{
+     color:${({ theme }) => theme.colors.gradients.secondary[1]} ;
     }
   }
 `
@@ -125,11 +132,16 @@ export const NavbarToggleContent = styled.div<{ open: boolean }>`
 
     &:nth-of-type(2) {
       opacity: ${({ open }) => (open ? 0 : 1)};
+      width: 15px;
+
     }
 
     &:nth-of-type(3) {
       transform: ${({ open }) => (open ? "rotate(-45deg)" : "rotate(0)")};
       transform-origin: 5% 90%;
+       width: ${({ open }) => (open ? '20px' : '12px')};
+
+
     }
   }
 `;
