@@ -16,6 +16,10 @@ export const GlobalStyles = createGlobalStyle`
         overflow-x: hidden;
     }
 
+     ::-webkit-scrollbar {
+    width: 3px;
+    }
+
     * {
         &:focus{
             outline-color: ${({ theme }) => theme.colors.gradients.primary[1]};

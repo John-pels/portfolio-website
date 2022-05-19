@@ -1,5 +1,6 @@
 import { SlideChild, SlideInWrapper } from "../Animation"
 import { Navbar } from "../Navbar"
+import { SelectedProjects } from "./projects"
 import { HeaderAboutParagraph, HeaderAboutTitle, HeaderContainer, HeaderContent, HeaderContentItem, HeaderHeroText } from "./style"
 
 
@@ -41,6 +42,7 @@ const Header = () => {
                     </HeaderContentItem>
                 </HeaderContent>
             </SlideInWrapper>
+            <SelectedProjects />
         </HeaderContainer>
     )
 }

@@ -1,3 +1,4 @@
+export { LaunchButton } from "./Launch";
 export { SlideChild } from "./Animation";
 export { SlideInWrapper } from "./Animation";
 export { Header } from "./Header";

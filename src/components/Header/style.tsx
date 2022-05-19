@@ -5,7 +5,6 @@ export const HeaderContainer = styled.header`
 width:100%;
 background: rgb(239,234,240);
 background: linear-gradient(90deg, rgba(239,234,240,1) 36%, rgba(230,245,243,1) 47%, rgba(230,237,242,1) 88%);
-position: relative;
 `
 export const HeaderContent = styled.section`
 display:flex;
@@ -18,6 +17,7 @@ ${({ theme }) => theme.media.md} {
   ${PaddedWrapper};
   ${Container}
 `
+
 
 export const HeaderContentItem = styled.div`
 :first-child{
@@ -46,6 +46,7 @@ line-height: 84px;
 letter-spacing: -0.02em;
 margin-top:0;
 
+
 ${({ theme }) => theme.media.xl} {
 br {
     display:none;
@@ -66,6 +67,10 @@ br {
    ${({ theme }) => theme.media.md} {
    font-size:1.8em;
    }
+
+     ${({ theme }) => theme.media.sm} {
+   font-size:1.5em;
+  }
 `
 
 export const HeaderAboutTitle = styled.h4`
@@ -78,7 +83,114 @@ font-family:${({ theme }) => theme.fontFamilies.manhope.extraLight};
 
  ${({ theme }) => theme.media.md} {
    font-size:0.9em;
-
    }
 
 `
+
+export const ProjectGrid = styled.section`
+display:grid;
+grid-template-columns:repeat(2, 1fr);
+gap:60px 40px;
+  ${PaddedWrapper};
+  ${Container}
+
+  ${({ theme }) => theme.media.md} {
+   grid-template-columns: 1fr;
+   gap:40px 0px;
+  }
+
+`
+export const GridTitle = styled.div`
+`
+
+export const GridHeading = styled.h3`
+font-family:${({ theme }) => theme.fontFamilies.clash.medium};
+font-size:3em;
+letter-spacing: -0.02em;
+line-height: 59px;
+margin:0;
+
+ ${({ theme }) => theme.media.md} {
+font-size:1.8em;
+line-height: 30px;
+  }
+
+   ${({ theme }) => theme.media.sm} {
+ font-size:1.5em;
+ line-height: 20px;
+  }
+`
+export const GridSubHeading = styled.p`
+font-family:${({ theme }) => theme.fontFamilies.manhope.light};
+font-size:1em;
+line-height: 25px;
+ ${({ theme }) => theme.media.md} {
+  font-size:0.8em;
+ line-height: 20px;
+  }
+
+  ${({ theme }) => theme.media.xl} {
+br {
+    display:none;
+}
+  }
+`
+
+export const ProjectItemContainer = styled.section`
+display:flex;
+gap:8px;
+align-items:flex-end;
+grid-row:span 3;
+`
+export const ProjectItemTitle = styled.h4`
+font-family:${({ theme }) => theme.fontFamilies.manhope.regular};
+font-size:1em;
+line-height: 22px;
+margin:0;
+writing-mode:vertical-rl;
+transform:rotate(180deg);
+`
+
+export const ProjectItemContent = styled.div`
+width: 100%;
+height:662px;
+position: relative; overflow: hidden;
+
+
+  ${({ theme }) => theme.media.md} {
+  height:400px;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    transition: 1s ease-in-out;
+  }
+
+  &:hover,
+  &:focus,
+  &:focus-within {
+    .ls {
+      transform: scale(1) translateY(0);
+      opacity: 1;
+    }
+    img {
+      opacity: 0.5;
+      transform: scale(1.2);
+    }
+  }
+`
+
+
+export const Wrapper = styled.div`
+  position: relative;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  overflow: hidden;
+
+    ${({ theme }) => theme.media.md} {
+  padding-top: 1.5rem;
+  }
+`;

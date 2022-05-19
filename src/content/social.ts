@@ -11,7 +11,7 @@ export interface Social {
 }
 
 const social: Social = {
-  me: "https://res.cloudinary.com/john-pels/image/upload/v1652581298/avatar_me.png",
+  me: "https://res.cloudinary.com/john-pels/image/upload/v1652581298/portfolio/avatar_me.png",
   email: "ajeigbejohnolu@gmail.com",
   dev: "https://dev.to/johnpels",
   github: "https://github.com/john-pels",
