@@ -9,9 +9,9 @@ const Skills = () => {
             <SlideInWrapper scrollTriggered stagger={0.3}>
 
                 {
-                    skills.map(({ one, two, three }, index) => (
+                    skills.map(({ one, two, three, borderBottom }, index) => (
                         <SlideChild y={50} stiffness={80} key={index}>
-                            <FlexBox gap={0}>
+                            <FlexBox gap={0} border={borderBottom}>
                                 <FlexBoxItem >
                                     <FlexTitle>{one}</FlexTitle>
                                 </FlexBoxItem>

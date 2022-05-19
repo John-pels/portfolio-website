@@ -5,26 +5,28 @@ export interface Courses {
   platform: string;
   title: string;
   date: string;
+  borderBottom?: boolean;
 }
 
 export const courses: Array<Courses> = [
   {
     icon: Pluralsight,
-    platform: "Courses",
+    platform: "Pluralsight",
     title: "Advance SVG Animation",
     date: "April 2021",
   },
 
   {
     icon: Pluralsight,
-    platform: "Courses",
+    platform: "Pluralsight",
     title: "Advance SVG Animation",
     date: "April 2021",
   },
   {
     icon: Pluralsight,
-    platform: "Courses",
+    platform: "Pluralsight",
     title: "Advance SVG Animation",
     date: "April 2021",
+    borderBottom: false,
   },
 ];

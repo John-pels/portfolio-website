@@ -9,7 +9,7 @@ export const TabHeader = styled.div`
     display: flex;
     gap:30px;
   ${horizontalScroll};
-    padding: 20px 0;
+    padding: 30px 0;
     border-top:1px solid #000;
     border-bottom:1px solid #000;
 `;
@@ -24,12 +24,8 @@ export const TabPane = styled.div<{ active?: boolean }>`
   transition: 0.3s;
   letter-spacing: -0.02em;
   font-family: ${({ theme, active }) => active ? theme.fontFamilies.manhope.medium : theme.fontFamilies.manhope.light};
-
-  ${({ theme }) => theme.media.lg} {
-
-  }
 `;
 
 export const TabContent = styled.div`
-    width: 100%;
+  width: 100%;
 `;

@@ -9,9 +9,9 @@ const WorkExperience = () => {
             <SlideInWrapper scrollTriggered stagger={0.3}>
 
                 {
-                    workExperience.map(({ company, location, role, description, duration }, index) => (
+                    workExperience.map(({ company, location, role, description, duration, borderBottom }, index) => (
                         <SlideChild y={50} stiffness={80} key={index}>
-                            <FlexBox>
+                            <FlexBox border={borderBottom}>
                                 <FlexBoxItem>
                                     <FlexTitle>{company}</FlexTitle>
                                     <FlexTitle>{location}</FlexTitle>

@@ -2,6 +2,7 @@ export interface Skills {
   one: string;
   two: string;
   three: string;
+  borderBottom?: false;
 }
 
 export const skills: Array<Skills> = [
@@ -25,5 +26,6 @@ export const skills: Array<Skills> = [
     one: "Styled-components",
     two: "NodeJs",
     three: "Golang",
+    borderBottom: false,
   },
 ];

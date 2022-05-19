@@ -8,9 +8,9 @@ const Courses = () => {
         <>
             <SlideInWrapper scrollTriggered stagger={0.3}>
                 {
-                    courses.map(({ icon, platform, title, date }, index) => (
+                    courses.map(({ icon, platform, title, date, borderBottom }, index) => (
                         <SlideChild y={50} stiffness={80} key={index}>
-                            <FlexBox >
+                            <FlexBox border={borderBottom}>
                                 <FlexBoxItem>
                                     <Wrap>
                                         {icon()}
