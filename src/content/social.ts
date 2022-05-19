@@ -8,6 +8,7 @@ export interface Social {
   resume: string;
   me: string;
   dev: string;
+  hashnode: string;
 }
 
 const social: Social = {
@@ -18,6 +19,7 @@ const social: Social = {
   instagram: "https://www.instagram.com/john_pels/",
   twitter: "https://twitter.com/john_pels",
   linkedIn: "https://www.linkedin.com/in/ajeigbejohn/",
+  hashnode: "https://johnpels.hashnode.dev/",
   phone: "+234 818 8974 303",
   resume:
     "https://docs.google.com/document/d/1Bssemyr9FVSf2Kv2I6RzXgA2h72ci7eiG0NhyenvAOk/view?usp=sharing",

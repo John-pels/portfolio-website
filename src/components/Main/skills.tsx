@@ -11,7 +11,7 @@ const Skills = () => {
                 {
                     skills.map(({ one, two, three, borderBottom }, index) => (
                         <SlideChild y={50} stiffness={80} key={index}>
-                            <FlexBox gap={0} border={borderBottom}>
+                            <FlexBox gap={0} border={borderBottom} row>
                                 <FlexBoxItem >
                                     <FlexTitle>{one}</FlexTitle>
                                 </FlexBoxItem>

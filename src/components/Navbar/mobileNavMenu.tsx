@@ -2,7 +2,7 @@ import social from "@src/content/social";
 import { motion, useAnimation, Variants } from "framer-motion";
 import { useEffect } from "react";
 import { socials } from ".";
-import { MobileMenuContainer, MobileMenuIcon, MobileMenuIconContainer, MobileMenuItem, NavbarBrand, NavbarLink, SocialMedias } from "./style";
+import { MobileMenuContainer, MobileMenuIcon, MobileMenuIconContainer, MobileMenuItem, } from "./style";
 
 interface IMobileMenu {
     open: boolean;
@@ -57,6 +57,7 @@ const MobileNavMenu = ({ open, toggle }: IMobileMenu) => {
         document.querySelector("#works")?.scrollIntoView({
             behavior: "smooth",
         });
+        toggle()
     };
     return (
         <motion.div variants={variants} animate={animation} initial="hidden">
@@ -70,14 +71,14 @@ const MobileNavMenu = ({ open, toggle }: IMobileMenu) => {
                     </MobileMenuItem>
                 </motion.div>
                 <motion.div variants={v}>
-                    <MobileMenuItem>
+                    <MobileMenuItem onClick={toggle}>
                         <a href={social.resume} target="_blank" rel="noreferrer">
                             Download Résumé
                         </a>
                     </MobileMenuItem>
                 </motion.div>
                 <motion.div variants={v}>
-                    <MobileMenuItem onClick={onWorkClick}>
+                    <MobileMenuItem onClick={toggle}>
                         <a href='mailto:ajeigbejohnolu@gmail.com' rel="noreferrer">
                             Schedule a Call
                         </a>

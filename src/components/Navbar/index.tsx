@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { NavbarBrand, NavbarContainer, NavbarFlexItem, NavbarLink, NavbarMobileFlex, NavbarToggle, NavbarToggleContent, SocialMedias } from "./style";
 import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { SiHashnode } from "react-icons/si";
 import social from "@src/content/social";
 import { MobileNavMenu } from "./mobileNavMenu";
 import Link from "next/link";
@@ -9,7 +10,9 @@ import Link from "next/link";
 export const socials = [
     { icon: <FaTwitter />, link: social.twitter, label: 'Twiiter' },
     { icon: <FaGithub />, link: social.github, label: 'Github' },
-    { icon: <FaLinkedinIn />, link: social.linkedIn, label: 'LinkedIn' }
+    { icon: <FaLinkedinIn />, link: social.linkedIn, label: 'LinkedIn' },
+    { icon: <SiHashnode />, link: social.hashnode, label: 'Hashnode' },
+
 ]
 
 

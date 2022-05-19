@@ -65,8 +65,8 @@ line-height: 35px;
 font-size:1rem;
 
  svg {
-    width: 13px;
-    height: 13px;
+    width: 15px;
+    height: 15px;
   }
 
   path {
@@ -200,8 +200,8 @@ export const MobileMenuIcon = styled.div`
   cursor: pointer;
 
   svg {
-    width: 15px;
-    height: 15px;
+    width: 24px;
+    height: 24px;
   }
 
   path {

@@ -1,4 +1,4 @@
-import { Footer, Header, Loader, MainContents, PageWrapperWithOpacity, Seo } from '@src/components'
+import { Footer, Header, Loader, MainContents, PageWrapperWithOpacity, Seo, TechnicalWritingContent } from '@src/components'
 import type { NextPage } from 'next'
 import { useState } from 'react';
 
@@ -15,6 +15,7 @@ const Home: NextPage = () => {
       <PageWrapperWithOpacity active={done}>
         <Header />
         <MainContents />
+        <TechnicalWritingContent />
         <Footer />
       </PageWrapperWithOpacity>
     </>

@@ -5,11 +5,7 @@ export const MainContainer = styled.main`
 padding-top:30px;
 background: rgb(233,215,228);
 background: linear-gradient(90deg, rgba(233,215,228,1) 8%, rgba(234,220,225,1) 23%, rgba(214,222,234,1) 44%, rgba(207,228,245,1) 70%, rgba(231,232,246,1) 91%, rgba(208,236,247,1) 100%);
-
-
 `
-
-
 export const MainWrapper = styled.section`
   ${Container};
   ${PaddedWrapper};
@@ -39,7 +35,7 @@ gap:15px;
 align-items:center;
 `
 
-export const FlexBox = styled.section<{ wrap?: boolean, gap?: number, border?: boolean }>`
+export const FlexBox = styled.section<{ wrap?: boolean, gap?: number, border?: boolean, row?: boolean }>`
 display:flex;
 justify-content:space-between;
 gap:${({ gap }) => gap || 70}px;
@@ -51,8 +47,14 @@ padding:30px 0;
 
 
 ${({ theme }) => theme.media.md} {
-gap:25px;
-flex-direction: column;
+ gap:25px;
+ flex-direction: ${({ row }) => row ? 'row' : 'column'};
+}
+
+
+  ${({ theme }) => theme.media.xs} {
+  gap:25px;
+  flex-direction: column;
   }
 
 `

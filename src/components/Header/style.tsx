@@ -64,14 +64,13 @@ br {
    line-height: 40px;
    }
 
-
-   ${({ theme }) => theme.media.md} {
-   font-size:1.8em;
-   }
-
      ${({ theme }) => theme.media.sm} {
-   font-size:1.5em;
+   font-size:1.8em;
   }
+
+  ${({ theme }) => theme.media.xs} {
+   font-size: 1.5em;
+   }
 `
 
 export const HeaderAboutTitle = styled.h4`
@@ -172,6 +171,7 @@ position: relative; overflow: hidden;
     object-position: top;
     transition: 1s ease-in-out;
   }
+
 
   &:hover,
   &:focus,

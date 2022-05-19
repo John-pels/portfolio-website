@@ -1,3 +1,4 @@
+export { TechnicalWritingContent } from "./Writings";
 export { MainContents } from "./Main";
 export { LaunchButton } from "./Launch";
 export { SlideChild } from "./Animation";
