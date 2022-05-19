@@ -1,3 +1,4 @@
+export { MainContents } from "./Main";
 export { LaunchButton } from "./Launch";
 export { SlideChild } from "./Animation";
 export { SlideInWrapper } from "./Animation";

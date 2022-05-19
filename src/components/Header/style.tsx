@@ -5,6 +5,7 @@ export const HeaderContainer = styled.header`
 width:100%;
 background: rgb(239,234,240);
 background: linear-gradient(90deg, rgba(239,234,240,1) 36%, rgba(230,245,243,1) 47%, rgba(230,237,242,1) 88%);
+padding-bottom:20px;
 `
 export const HeaderContent = styled.section`
 display:flex;
@@ -149,6 +150,9 @@ line-height: 22px;
 margin:0;
 writing-mode:vertical-rl;
 transform:rotate(180deg);
+  ${({ theme }) => theme.media.md} {
+  line-height:unset;
+  }
 `
 
 export const ProjectItemContent = styled.div`

@@ -3,6 +3,7 @@ import { Container, PaddedWrapper } from "../container";
 
 export const FooterContainer = styled.footer`
 background:${({ theme }) => theme?.colors?.lightPink};
+padding:30px 0 20px 0;
 `
 
 export const FooterContent = styled.section`
