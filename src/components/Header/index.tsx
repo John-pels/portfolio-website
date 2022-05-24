@@ -27,8 +27,8 @@ const Header = () => {
                         <HeaderContentItem>
                             <HeaderAboutTitle>About Me</HeaderAboutTitle>
                             <SlideChild y={-50} stiffness={80}>
-                                <HeaderAboutParagraph>Hello! I’m John O. Ajeigbe,
-                                    a Software Engineer with more than 3+ years of experience building groundbreaking
+                                <HeaderAboutParagraph>Hello! 👋 I’m John O. Ajeigbe,
+                                    a Software Engineer with more than 3 years of experience building groundbreaking
                                     digital products across a variety of industries. </HeaderAboutParagraph>
                                 <HeaderAboutParagraph>The internet is my fun place and my oyster. You’ll always
                                     find me contributing my knowledge, skills and experience to developing
