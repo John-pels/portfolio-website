@@ -17,9 +17,10 @@ const TechnicalWritingContent = () => {
                         <SlideChild y={50} stiffness={80}>
                             <GridTitle>
                                 <GridHeading>Recent Writings</GridHeading>
-                                <GridSubHeading>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Suspendisse <br /> commodo varius nunc sit amet sollicitudin.
-                                    Phasellus varius efficitur <br /> scelerisque.</GridSubHeading>
+                                <GridSubHeading>
+                                    Documenting the process is just as important as building the project.
+                                    Occasionally, <br /> I share some valuable lessons I’ve learnt so far in my career. Here are some <br /> of my most recent publications.
+                                </GridSubHeading>
                             </GridTitle>
                         </SlideChild>
 

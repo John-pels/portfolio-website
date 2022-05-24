@@ -15,8 +15,7 @@ const SelectedProjects = () => {
                         <SlideChild y={50} stiffness={80}>
                             <GridHeading> Selected Projects</GridHeading>
                             <GridSubHeading>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse <br /> commodo
-                                varius nunc sit amet sollicitudin. Phasellus varius efficitur <br /> scelerisque.
+                                As a meticulous developer, everything matters. I firmly believe the whole is greater <br /> than the sum of its parts. This is why I ensure my work is fast, responsive, intuitive and <br /> creative. Check out some of my projects here:
                             </GridSubHeading>
                         </SlideChild>
                     </GridTitle>

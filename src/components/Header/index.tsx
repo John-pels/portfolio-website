@@ -27,18 +27,18 @@ const Header = () => {
                         <HeaderContentItem>
                             <HeaderAboutTitle>About Me</HeaderAboutTitle>
                             <SlideChild y={-50} stiffness={80}>
-                                <HeaderAboutParagraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Suspendisse commodo varius nunc sit amet sollicitudin.
-                                    Phasellus varius efficitur scelerisque.</HeaderAboutParagraph>
-                                <HeaderAboutParagraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Suspendisse commodo varius nunc sit amet sollicitudin.
-                                    Phasellus varius efficitur scelerisque.</HeaderAboutParagraph>
+                                <HeaderAboutParagraph>Hello! I’m John O. Ajeigbe,
+                                    a Software Engineer with more than 3+ years of experience building groundbreaking
+                                    digital products across a variety of industries. </HeaderAboutParagraph>
+                                <HeaderAboutParagraph>The internet is my fun place and my oyster. You’ll always
+                                    find me contributing my knowledge, skills and experience to developing
+                                    projects that make our lives easier and better. </HeaderAboutParagraph>
                             </SlideChild>
 
                             <SlideChild y={50} stiffness={80}>
-                                <HeaderAboutParagraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Suspendisse commodo varius nunc sit amet sollicitudin.
-                                    Phasellus varius efficitur scelerisque.</HeaderAboutParagraph>
+                                <HeaderAboutParagraph>Perhaps my favorite pastime is teaching, as I dedicate time
+                                    to mentor and impart knowledge to the next generation of promising
+                                    tech talent on the continent. </HeaderAboutParagraph>
                             </SlideChild>
                         </HeaderContentItem>
                     </HeaderContent>
