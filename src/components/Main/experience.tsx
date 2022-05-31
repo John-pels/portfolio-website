@@ -1,6 +1,6 @@
 import { workExperience } from "@src/content/experience"
 import { SlideChild, SlideInWrapper } from "../Animation"
-import { FlexBox, FlexBoxItem, FlexParagraph, FlexTitle } from "./style"
+import { FlexBox, FlexBoxItem, FlexParagraph, FlexTitle, List, ListItem } from "./style"
 
 
 const WorkExperience = () => {
@@ -9,7 +9,7 @@ const WorkExperience = () => {
             <SlideInWrapper scrollTriggered stagger={0.3}>
 
                 {
-                    workExperience.map(({ company, location, role, description, duration, borderBottom }, index) => (
+                    workExperience.map(({ company, location, role, description, duration, borderBottom, works }, index) => (
                         <SlideChild y={50} stiffness={80} key={index}>
                             <FlexBox border={borderBottom}>
                                 <FlexBoxItem>
@@ -19,6 +19,13 @@ const WorkExperience = () => {
                                 <FlexBoxItem>
                                     <FlexTitle>{role}</FlexTitle>
                                     <FlexParagraph>{description}</FlexParagraph>
+                                    <List>
+                                        {
+                                            works.map((work, index) => (
+                                                <ListItem key={index}>{work}</ListItem>
+                                            ))
+                                        }
+                                    </List>
                                 </FlexBoxItem>
                                 <FlexBoxItem>
                                     <FlexTitle>{duration}</FlexTitle>

@@ -39,7 +39,7 @@ const Container = styled.div`
 const Content = styled.div`
   width: 20px;
   height: 20px;
-  border: 2px solid ${({ theme }) => theme.colors.gradients.secondary[1]};
+  border: 2px solid ${({ theme }) => theme.colors.black};
   border-radius: 50%;
 `;
 

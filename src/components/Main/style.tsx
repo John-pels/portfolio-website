@@ -80,5 +80,12 @@ font-size:1em;
 font-family:${({ theme }) => theme.fontFamilies.manhope.extraLight};
 letter-spacing: -0.02em;
 line-height: 25px;
-font-size:0.8;
+`
+export const List = styled.ul`
+font-size:1em;
+font-family:${({ theme }) => theme.fontFamilies.manhope.extraLight};
+`
+export const ListItem = styled.li`
+padding-bottom:0.5em;
+line-height: 20px;
 `

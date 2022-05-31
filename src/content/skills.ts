@@ -24,7 +24,7 @@ export const skills: Array<Skills> = [
   },
   {
     one: "Styled-components",
-    two: "NodeJs",
+    two: "NodeJs/ExpressJs",
     three: "Golang",
     borderBottom: false,
   },
