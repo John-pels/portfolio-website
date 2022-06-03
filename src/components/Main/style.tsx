@@ -72,7 +72,7 @@ line-height: 25px;
 margin:0 ;
 
  ${({ theme }) => theme.media.lg} {
-font-size:1.15em;
+font-size:1em;
   }
 `
 export const FlexParagraph = styled.p`
