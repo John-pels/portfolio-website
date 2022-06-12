@@ -53,7 +53,7 @@ const Navbar = () => {
                             </a>
                         </Link>
                     </NavbarBrand>
-                    <NavbarLink>Senior Software Engineer</NavbarLink>
+                    <NavbarLink>Software Engineer</NavbarLink>
                     <SocialMedias>
                         {
                             socials.map(({ icon, link, label }, index) => (
