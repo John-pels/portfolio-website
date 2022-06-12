@@ -23,6 +23,11 @@ export const skills: Array<Skills> = [
     three: "SASS",
   },
   {
+    one: "React Testing Library",
+    two: "Jest",
+    three: "CI/CD",
+  },
+  {
     one: "Styled-components",
     two: "NodeJs/ExpressJs",
     three: "Golang",
