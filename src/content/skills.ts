@@ -18,7 +18,7 @@ export const skills: Array<Skills> = [
   },
 
   {
-    one: "GraphQL",
+    one: "GraphQL/Apollo Client",
     two: "Redux/Redux-Saga",
     three: "SASS",
   },

@@ -67,7 +67,7 @@ export const workExperience: Array<WorkExperience> = [
     location: "Ibadan, Nigeria",
     role: "Web Developer",
     description: `Rasmed Publications is an award-winning publisher of progressive books in Nigeria. Publishing textbooks and special titles for schools and various sectors nationwide. As a Web Developer, I`,
-    duration: "August 2019 - June 2020",
+    duration: "January 2019 - August 2019",
     borderBottom: false,
     works: [
       "Improved the overall performance and SEO of the web app",
