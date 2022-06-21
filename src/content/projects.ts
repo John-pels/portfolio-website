@@ -14,7 +14,7 @@ const projects: Project[] = [
   },
   {
     index: 2,
-    image: "v1652805242/portfolio/project_2.png",
+    image: "v1655806288/portfolio/wishme.png",
     title: "Wishme",
     liveUrl: "https://curious-creponne-7c16ea.netlify.app/",
   },
