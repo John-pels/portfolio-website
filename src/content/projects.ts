@@ -20,7 +20,7 @@ const projects: Project[] = [
   },
   {
     index: 3,
-    image: "v1652805242/portfolio/project_4.png",
+    image: "v1655780151/portfolio/unsplash.png",
     title: "Unsplash Mini",
     liveUrl: "https://unsplashklone.netlify.app",
   },

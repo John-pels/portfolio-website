@@ -1,5 +1,6 @@
 import { FooterBrand, FooterContainer, FooterContent, FooterCopyright, FooterItem, FooterText, Wrap } from "./style"
 import { FaEnvelope, FaPhoneAlt, FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
+import { SiHashnode } from "react-icons/si";
 import social from "@src/content/social"
 
 export const socials = [
@@ -74,6 +75,15 @@ const Footer = () => {
                         >
 
                             <FaLinkedinIn />
+                        </a>
+                        <a
+                            href={social.hashnode}
+                            target="_blank"
+                            rel="noreferrer"
+                            aria-label="LinkedIn"
+                        >
+
+                            <SiHashnode />
                         </a>
                     </Wrap>
                 </FooterItem>
