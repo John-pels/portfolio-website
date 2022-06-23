@@ -32,6 +32,6 @@ export const writings: Writing[] = [
     description:
       "Docker is a platform where developers build, run, and deploy applications with containers.",
     liveUrl:
-      "https://johnpels.hashnode.dev/css-the-heart-of-web-design-30bf6e84f16d",
+      "https://johnpels.hashnode.dev/getting-started-with-docker-dockerize-a-react-app-ckg0o85tu00jozps11izhb5zl",
   },
 ];
