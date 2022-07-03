@@ -10,7 +10,7 @@ const projects: Project[] = [
     index: 1,
     image: "v1655741586/portfolio/mojec_customer.png",
     title: "Mojec Customer Web Portal",
-    liveUrl: "https://dev-customers.meterservicehub.com",
+    liveUrl: "https://customers.meterservicehub.com",
   },
   {
     index: 2,
@@ -28,7 +28,7 @@ const projects: Project[] = [
     index: 4,
     image: "v1655741585/portfolio/mojec_admin.png",
     title: "Mojec Admin Web Portal",
-    liveUrl: "https://dev-admin.meterservicehub.com",
+    liveUrl: "https://admin.meterservicehub.com",
   },
 ];
 
