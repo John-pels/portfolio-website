@@ -38,7 +38,7 @@ export const courses: Array<Courses> = [
   },
   {
     icon: FrontendMaster,
-    platform: "Frontend Master",
+    platform: "Udemy",
     title: "Advance React For Senior Engineers",
     date: "March 2022",
     borderBottom: false,

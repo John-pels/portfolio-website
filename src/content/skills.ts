@@ -13,7 +13,7 @@ export const skills: Array<Skills> = [
   },
   {
     one: "NextJs",
-    two: "Vue",
+    two: "Vue/NuxtJs",
     three: "React Native",
   },
 
