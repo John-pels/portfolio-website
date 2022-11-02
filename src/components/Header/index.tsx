@@ -28,7 +28,7 @@ const Header = () => {
                             <HeaderAboutTitle>About Me</HeaderAboutTitle>
                             <SlideChild y={-50} stiffness={80}>
                                 <HeaderAboutParagraph>Hello! 👋 I’m John O. Ajeigbe,
-                                    a Software Engineer with more than 3 years of experience building groundbreaking
+                                    a Software Engineer with more than 4 years of experience building groundbreaking
                                     digital products across a variety of industries. </HeaderAboutParagraph>
                                 <HeaderAboutParagraph>The internet is my fun place and my oyster. You’ll always
                                     find me contributing my knowledge, skills and experience to developing
@@ -37,7 +37,7 @@ const Header = () => {
 
                             <SlideChild y={50} stiffness={80}>
                                 <HeaderAboutParagraph>Perhaps my favorite pastime is teaching, as I dedicate time
-                                    to mentor and impart knowledge to the next generation of promising
+                                    to mentoring and imparting knowledge to the next generation of promising
                                     tech talent on the continent. </HeaderAboutParagraph>
                             </SlideChild>
                         </HeaderContentItem>
