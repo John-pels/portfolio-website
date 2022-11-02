@@ -24,7 +24,7 @@ export const workExperience: Array<WorkExperience> = [
       "Used Git version control system to manage source code changes and collaborated with other developers on tasks when needed.",
       "Participated in team ceremonies including planning,product demonstrations, and team retrospectives",
       "Participated in architectural review meetings regarding application development practices and participated in technical discussions about implementation details of various features or fixes.",
-      "a",
+      "Developed and launched a new we app, student dashboard and admin dashboard.",
     ],
   },
 
