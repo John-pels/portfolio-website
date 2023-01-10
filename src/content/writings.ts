@@ -18,6 +18,16 @@ export const writings: Writing[] = [
   },
   {
     index: 2,
+    image: "v1673357072/portfolio/styled_components.png",
+    title:
+      "Scalable Theming With Styled-Components and TypeScript in React (Next.js)",
+    description:
+      "Styled-components is a CSS-in-JS styling solution that makes it possible and easier for software developers to style React and React Native components using CSS.",
+    liveUrl:
+      "https://johnpels.hashnode.dev/scalable-theming-with-styled-components-and-typescript-in-react-nextjs#clc7x2jmo00ozgnnv68c7e5lk",
+  },
+  {
+    index: 3,
     image: "v1654227072/portfolio/css.png",
     title: "CSS: The heart of web design",
     description:
@@ -26,7 +36,7 @@ export const writings: Writing[] = [
       "https://johnpels.hashnode.dev/css-the-heart-of-web-design-30bf6e84f16d",
   },
   {
-    index: 2,
+    index: 4,
     image: "v1654227072/portfolio/docker.webp",
     title: "Getting started with Docker, Dockerize a React App.",
     description:

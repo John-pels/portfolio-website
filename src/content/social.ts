@@ -22,7 +22,7 @@ const social: Social = {
   hashnode: "https://johnpels.hashnode.dev/",
   phone: "+234 818 8974 303",
   resume:
-    "https://docs.google.com/document/d/1Bssemyr9FVSf2Kv2I6RzXgA2h72ci7eiG0NhyenvAOk/view?usp=sharing",
+    "https://docs.google.com/document/d/146deo48B4YxM5pL4P6djcwubFYpYLsW1nxqaBLLXCtw/edit?usp=sharing",
 };
 
 export default social;
