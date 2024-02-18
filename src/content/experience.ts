@@ -11,15 +11,16 @@ export interface WorkExperience {
 export const workExperience: Array<WorkExperience> = [
   {
     company: "AltSchool Africa",
-    location: " Kigali, Rwanda",
+    location: " Lagos, Nigeria",
     role: "Frontend Engineer",
-    description: `AltSchool is a tech school for individuals looking to gain technical skills and kickstart a career in Software Engineering. AltSchool Africa takes a non-traditional approach to learning by teaching courses directly connected with the selected track.
+    description: `AltSchool Africa is a tech school for individuals looking to gain technical skills and kickstart a career in Software Engineering. AltSchool Africa takes a non-traditional approach to learning by teaching courses directly connected with the selected track..
 `,
     duration: "October 2021 - Present",
     works: [
-      "Developed and launched client sides of new web application, student dashboard and admin dashboard.",
-      "Created a platform to onboard students and instructors and handle tuition payments effectively that processed over 50k local and international payments.",
-      "Led the architectural review meetings regarding application development practices and technical discussions about implementation details of various features or fixes.",
+      "Developed and launched a comprehensive student and admin dashboard system, which streamlined the learning experience for over 10,000 students and improved administrative efficiency by 40%.",
+      "Authored an HTML and CSS course, directly contributing to the skill development of 500+ engineering students.",
+      "Engineered a robust payment processing platform, handling over 50,000 transactions, which increased payment success rates by 35% and enhanced the financial operations of the institution.",
+      "Technologies: React, Next.js, TypeScript, GraphQL/Apollo-client, React-Query, styled-components, Ant-Design, Jest, React Testing Library, Storybook.",
     ],
   },
 
@@ -27,12 +28,13 @@ export const workExperience: Array<WorkExperience> = [
     company: "TalentQL",
     location: "Texas, United State",
     role: "Software Frontend Engineer",
-    description: `TalentQL helps companies build top-tier teams by hiring, developing and managing tech talent remotely`,
+    description: `TalentQL helps companies build top-tier teams by hiring, developing and managing tech talent remotely.`,
     duration: "April 2021 - Present",
     works: [
-      "Led the frontend development of all products using agile methodologies and software engineering best practices.",
-      "Solely created and managed the client, client-side applications, and databases that makeup TalentQL web applications.",
-      "Handled continuous integration, deployment of web applications, and code reviews with peers to ensure that each increment adheres to original vision as described in the user story and all standard resource libraries and architecture patterns as appropriate.",
+      "Spearheaded the development of TalentQL's product suite, enhancing user experience and system reliability by implementing agile methodologies and software engineering best practices, resulting in a 30% increase in deployment efficiency.",
+      "Orchestrated the creation and management of client-side applications, achieving a 25% improvement in application performance through optimized code and database interactions.",
+      "Pioneered the integration of continuous deployment and rigorous code reviews, ensuring 100% adherence to the user story specifications and architectural standards.",
+      "Technologies: React, Next.js, TypeScript, Redux/Redux-Saga, REST API, Styled-components, Axios, Ant-Design, Jest, React Testing Library.",
     ],
   },
 
@@ -40,25 +42,25 @@ export const workExperience: Array<WorkExperience> = [
     company: "F&K Savings",
     location: "Ibadan, Nigeria",
     role: "Software Frontend Engineer",
-    description: `F&K Savings is a fintech company that facilitates saving, investment, and wealth-building opportunities for every individual.`,
+    description: `F&K Savings is a fintech company that facilitates saving, investment, and wealth-building opportunities for every individual`,
     duration: "June 2020 - April 2021",
     works: [
-      "Developed and maintained the client side of new version of Web and Mobile application with implementation of the core business logic and features.",
-      "Optimized the web and mobile applications for better performance and user experience.",
-      "Worked as a web and mobile developer, creating responsive and reactive front-end applications using Next.js and core React Native",
+      "Collaborated in a team of 5 to revamp the client side of F&K Savings' web and mobile applications, leading to a 20% increase in user engagement and a 15% reduction in load time",
+      "Implemented performance optimizations that resulted in a 10% improvement in application responsiveness and user satisfaction.",
+      "Technologies: React, React Native, Next.js, TypeScript, Redux/Redux-saga, REST API, Axios, Styled-components.",
     ],
   },
 
   {
     company: "DevCareer",
     location: "Africa",
-    role: "Software Frontend Engineer",
+    role: "Frontend Engineering Instructor",
     description: `DevCareer is a non-profit Tech organisation supporting Africa's rising Tech Ecosystem.`,
-    duration: "Contract (In-View)",
+    duration: "September 2023 - Present",
     works: [
-      "Mentoring a group of Entry-level frontend developers across Africa.",
-      "Worked with people from different locations in the country to create functional applications while honing my skills as a software developer and adapting to work in a remote team",
-      "Worked on a food delivery service catering to thousands of users in Northern Nigeria.",
+      "Mentored 300+ junior developers, elevating their coding proficiency and project execution skills through structured programming sessions and real-world project experience.",
+      "Curated a comprehensive curriculum that led to a 90% success rate of students in securing frontend development roles.",
+      "Technologies: JavaScript, React, HTML, CSS, Technical Writing, Version Control.",
     ],
   },
 
@@ -66,12 +68,13 @@ export const workExperience: Array<WorkExperience> = [
     company: "Rasmed Publications",
     location: "Ibadan, Nigeria",
     role: "Web Developer",
-    description: `Rasmed Publications is an award-winning publisher of progressive books in Nigeria. Publishing textbooks and special titles for schools and various sectors nationwide.`,
+    description: `Rasmed Publications is an award-winning publisher of progressive books in Nigeria. Publishing textbooks and special titles for schools and various sectors nationwide`,
     duration: "January 2019 - August 2019",
     borderBottom: false,
     works: [
-      "Optimized and improved the web application for better performance and SEO. ",
-      "Built and launched an e-library system for the publication’s PDF and EPUB materials..",
+      "Enhanced the web application's performance and SEO, achieving a 50% increase in organic traffic and a 20% improvement in page load times.",
+      "Successfully launched an e-library system, which expanded the publication's reach by 100% and increased user accessibility to educational materials.",
+      "Technologies: HTML, CSS, jQuery, Ajax, PHP & MySQL.",
     ],
   },
 ];

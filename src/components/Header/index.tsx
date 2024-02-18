@@ -28,8 +28,7 @@ const Header = () => {
                             <HeaderAboutTitle>About Me</HeaderAboutTitle>
                             <SlideChild y={-50} stiffness={80}>
                                 <HeaderAboutParagraph>Hello! 👋 I’m John O. Ajeigbe,
-                                    a Software Engineer with more than 4 years of experience building groundbreaking
-                                    digital products across a variety of industries. </HeaderAboutParagraph>
+                                    a seasoned Software Engineer and Technical Writer, John brings a wealth of experience in developing robust software solutions and articulating complex technical concepts. With a strong foundation in multiple programming languages and a flair for leading cross-functional teams, John excels in architecting front-end and back-end systems that enhance user experience and operational efficiency. <br /> <br /> His strategic approach to software engineering, coupled with his commitment to innovation and excellence, positions him as a valuable asset to any organization seeking senior-level expertise. </HeaderAboutParagraph>
                                 <HeaderAboutParagraph>The internet is my fun place and my oyster. You’ll always
                                     find me contributing my knowledge, skills and experience to developing
                                     projects that make our lives easier and better. </HeaderAboutParagraph>
